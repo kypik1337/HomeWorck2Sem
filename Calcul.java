@@ -1,6 +1,11 @@
-package calculator;
 
-public class Calcul implements Deistvie{
+
+import deistvie.Delenie;
+import deistvie.Raznost;
+import deistvie.Summa;
+import deistvie.Umnojenie;
+
+public class Calcul implements Delenie, Raznost, Summa, Umnojenie{
     @Override
     public String toString() {
         return "Calcul [a=" + a + ", b=" + b + "]";
